@@ -7,15 +7,48 @@
 
 import UIKit
 import CoreData
+import CoreLocation
+import GoogleMobileAds
+import Firebase
+import AppTrackingTransparency
 
 @main
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate,UNUserNotificationCenterDelegate {
 
-
-
+    func applicationDidBecomeActive(_ application: UIApplication) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+            if #available(iOS 14, *) {
+                ATTrackingManager.requestTrackingAuthorization(completionHandler: { status in
+                    DispatchQueue.main.async {
+                        //                            self.AdView.load(GADRequest())
+                        //                            self.interstitial.load(request)
+                    }
+                })
+            } else {
+                // Fallback on earlier versions
+                //                    self.AdView.load(GADRequest())
+                //                    self.interstitial.load(request)
+            }
+        }
+        
+        
+    }
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+//        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge], completionHandler: {didAllow, error in
+//            })
+//        
+//        UNUserNotificationCenter.current().delegate = self
+        
+        FirebaseApp.configure()
+        GADMobileAds.sharedInstance().start(completionHandler: nil)
+
         return true
+    }
+    
+    func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
+        completionHandler([.alert,.badge,.sound])
     }
 
     // MARK: UISceneSession Lifecycle
@@ -27,10 +60,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {
+        
+       
         // Called when the user discards a scene session.
         // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
+    
+ 
 
     // MARK: - Core Data stack
 
@@ -78,4 +115,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 }
+
 

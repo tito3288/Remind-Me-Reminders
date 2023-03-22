@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>473956887886-p0j644b9m6hnlipb4gags93uq834i3ud.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.473956887886-p0j644b9m6hnlipb4gags93uq834i3ud</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBPmKCeGacf9HC20lA5lvsEWVCxGEmprCo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>473956887886</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.Bryan.Re-Mind</string>
+	<key>PROJECT_ID</key>
+	<string>remind-me-e82ec</string>
+	<key>STORAGE_BUCKET</key>
+	<string>remind-me-e82ec.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:473956887886:ios:14fe8cc71a7d6c8516021f</string>
+	<key>ADMOB_APP_ID</key>
+	<string>ca-app-pub-4207914941473996~4489571430</string>
+</dict>
+</plist>

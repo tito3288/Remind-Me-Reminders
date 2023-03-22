@@ -7,25 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E049B7627FB251200446407 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E049B7527FB251200446407 /* GoogleService-Info.plist */; };
+		2E1D086027DC4E34002BA0C6 /* CompletedReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1D085F27DC4E34002BA0C6 /* CompletedReminderViewController.swift */; };
+		2E68715227CCEB4300703FE8 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E68715127CCEB4300703FE8 /* MapViewController.swift */; };
+		2EFD099927C5FA3A00B13A82 /* ReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFD099827C5FA3A00B13A82 /* ReminderViewController.swift */; };
 		2EFDE39A27C354F200BE10CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFDE39927C354F200BE10CC /* AppDelegate.swift */; };
 		2EFDE39C27C354F200BE10CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFDE39B27C354F200BE10CC /* SceneDelegate.swift */; };
-		2EFDE39E27C354F200BE10CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFDE39D27C354F200BE10CC /* ViewController.swift */; };
 		2EFDE3A127C354F200BE10CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EFDE39F27C354F200BE10CC /* Main.storyboard */; };
 		2EFDE3A427C354F200BE10CC /* Re_Mind2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2EFDE3A227C354F200BE10CC /* Re_Mind2.xcdatamodeld */; };
 		2EFDE3A627C354F300BE10CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EFDE3A527C354F300BE10CC /* Assets.xcassets */; };
 		2EFDE3A927C354F300BE10CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EFDE3A727C354F300BE10CC /* LaunchScreen.storyboard */; };
+		2EFDE3B627C5EEC800BE10CC /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFDE3B527C5EEC800BE10CC /* DateViewController.swift */; };
+		2EFDE3BB27C5EEFB00BE10CC /* ReminderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFDE3B927C5EEFB00BE10CC /* ReminderTableViewCell.swift */; };
+		2EFDE3BC27C5EEFB00BE10CC /* ReminderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EFDE3BA27C5EEFB00BE10CC /* ReminderTableViewCell.xib */; };
+		937E7A2E9FEBA46E4313FDC7 /* libPods-Re-Mind2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61917AB740EDE31BC0FD0945 /* libPods-Re-Mind2.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E049B7527FB251200446407 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2E1D085F27DC4E34002BA0C6 /* CompletedReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedReminderViewController.swift; sourceTree = "<group>"; };
+		2E68715127CCEB4300703FE8 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		2EFD099827C5FA3A00B13A82 /* ReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderViewController.swift; sourceTree = "<group>"; };
 		2EFDE39627C354F200BE10CC /* Re-Mind2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Re-Mind2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EFDE39927C354F200BE10CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EFDE39B27C354F200BE10CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2EFDE39D27C354F200BE10CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2EFDE3A027C354F200BE10CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2EFDE3A327C354F200BE10CC /* Re_Mind2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Re_Mind2.xcdatamodel; sourceTree = "<group>"; };
 		2EFDE3A527C354F300BE10CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2EFDE3A827C354F300BE10CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2EFDE3AA27C354F300BE10CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EFDE3B527C5EEC800BE10CC /* DateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateViewController.swift; sourceTree = "<group>"; };
+		2EFDE3B927C5EEFB00BE10CC /* ReminderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderTableViewCell.swift; sourceTree = "<group>"; };
+		2EFDE3BA27C5EEFB00BE10CC /* ReminderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReminderTableViewCell.xib; sourceTree = "<group>"; };
+		3235DFA669714A0493FD8DEC /* Pods-Re-Mind2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Re-Mind2.debug.xcconfig"; path = "Target Support Files/Pods-Re-Mind2/Pods-Re-Mind2.debug.xcconfig"; sourceTree = "<group>"; };
+		556DB6F8E57AC54079328AA1 /* Pods-Re-Mind2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Re-Mind2.release.xcconfig"; path = "Target Support Files/Pods-Re-Mind2/Pods-Re-Mind2.release.xcconfig"; sourceTree = "<group>"; };
+		61917AB740EDE31BC0FD0945 /* libPods-Re-Mind2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Re-Mind2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				937E7A2E9FEBA46E4313FDC7 /* libPods-Re-Mind2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +61,8 @@
 			children = (
 				2EFDE39827C354F200BE10CC /* Re-Mind2 */,
 				2EFDE39727C354F200BE10CC /* Products */,
+				D3371E3F1542AD89CF9A91BC /* Pods */,
+				C604E43AD3215CEEADDFFD79 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,14 +79,61 @@
 			children = (
 				2EFDE39927C354F200BE10CC /* AppDelegate.swift */,
 				2EFDE39B27C354F200BE10CC /* SceneDelegate.swift */,
-				2EFDE39D27C354F200BE10CC /* ViewController.swift */,
-				2EFDE39F27C354F200BE10CC /* Main.storyboard */,
+				2EFDE3B427C5EE4F00BE10CC /* Model */,
+				2EFDE3B127C5EE0C00BE10CC /* View */,
+				2EFDE3B027C5EDF300BE10CC /* Controller */,
 				2EFDE3A527C354F300BE10CC /* Assets.xcassets */,
 				2EFDE3A727C354F300BE10CC /* LaunchScreen.storyboard */,
 				2EFDE3AA27C354F300BE10CC /* Info.plist */,
+				2E049B7527FB251200446407 /* GoogleService-Info.plist */,
 				2EFDE3A227C354F200BE10CC /* Re_Mind2.xcdatamodeld */,
 			);
 			path = "Re-Mind2";
+			sourceTree = "<group>";
+		};
+		2EFDE3B027C5EDF300BE10CC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2EFD099827C5FA3A00B13A82 /* ReminderViewController.swift */,
+				2E1D085F27DC4E34002BA0C6 /* CompletedReminderViewController.swift */,
+				2EFDE3B527C5EEC800BE10CC /* DateViewController.swift */,
+				2E68715127CCEB4300703FE8 /* MapViewController.swift */,
+				2EFDE3B927C5EEFB00BE10CC /* ReminderTableViewCell.swift */,
+				2EFDE3BA27C5EEFB00BE10CC /* ReminderTableViewCell.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2EFDE3B127C5EE0C00BE10CC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2EFDE39F27C354F200BE10CC /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2EFDE3B427C5EE4F00BE10CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C604E43AD3215CEEADDFFD79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61917AB740EDE31BC0FD0945 /* libPods-Re-Mind2.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3371E3F1542AD89CF9A91BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3235DFA669714A0493FD8DEC /* Pods-Re-Mind2.debug.xcconfig */,
+				556DB6F8E57AC54079328AA1 /* Pods-Re-Mind2.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +143,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2EFDE3AD27C354F300BE10CC /* Build configuration list for PBXNativeTarget "Re-Mind2" */;
 			buildPhases = (
+				C0C9C005F707973C1F4FD8DC /* [CP] Check Pods Manifest.lock */,
 				2EFDE39227C354F200BE10CC /* Sources */,
 				2EFDE39327C354F200BE10CC /* Frameworks */,
 				2EFDE39427C354F200BE10CC /* Resources */,
@@ -128,23 +195,54 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E049B7627FB251200446407 /* GoogleService-Info.plist in Resources */,
 				2EFDE3A927C354F300BE10CC /* LaunchScreen.storyboard in Resources */,
 				2EFDE3A627C354F300BE10CC /* Assets.xcassets in Resources */,
 				2EFDE3A127C354F200BE10CC /* Main.storyboard in Resources */,
+				2EFDE3BC27C5EEFB00BE10CC /* ReminderTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C0C9C005F707973C1F4FD8DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Re-Mind2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2EFDE39227C354F200BE10CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EFDE39E27C354F200BE10CC /* ViewController.swift in Sources */,
+				2E1D086027DC4E34002BA0C6 /* CompletedReminderViewController.swift in Sources */,
 				2EFDE3A427C354F200BE10CC /* Re_Mind2.xcdatamodeld in Sources */,
 				2EFDE39A27C354F200BE10CC /* AppDelegate.swift in Sources */,
+				2EFDE3B627C5EEC800BE10CC /* DateViewController.swift in Sources */,
+				2E68715227CCEB4300703FE8 /* MapViewController.swift in Sources */,
+				2EFD099927C5FA3A00B13A82 /* ReminderViewController.swift in Sources */,
 				2EFDE39C27C354F200BE10CC /* SceneDelegate.swift in Sources */,
+				2EFDE3BB27C5EEFB00BE10CC /* ReminderTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +305,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -268,6 +367,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -288,57 +388,73 @@
 		};
 		2EFDE3AE27C354F300BE10CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3235DFA669714A0493FD8DEC /* Pods-Re-Mind2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = FYRP82KMX9;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Re-Mind2/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Remind-Me";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Allow Re-MInd to track location in the background to receive Reminder Notifications based on Location.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Allow to track";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow Re-MInd to track location in the background to receive Reminder Notifications based on Location.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This allows Remind-Me to provide you with ads that are more relevant to you";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Bryan.Re-Mind2";
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Bryan.Re-Mind";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		2EFDE3AF27C354F300BE10CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 556DB6F8E57AC54079328AA1 /* Pods-Re-Mind2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = FYRP82KMX9;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Re-Mind2/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Remind-Me";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Allow Re-MInd to track location in the background to receive Reminder Notifications based on Location.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Allow to track";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow Re-MInd to track location in the background to receive Reminder Notifications based on Location.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This allows Remind-Me to provide you with ads that are more relevant to you";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Bryan.Re-Mind2";
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Bryan.Re-Mind";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
